@@ -1,2 +1,2 @@
-module.zip: customize.sh module.prop
+magisk-bootanimation.zip: customize.sh module.prop
 	zip -r - META-INF/ $^ > $@
