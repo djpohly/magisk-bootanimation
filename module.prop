@@ -1,0 +1,6 @@
+id=custom-bootanimation
+name=Custom Boot Animation
+version=0.1
+versionCode=1
+author=Devin J. Pohly
+description=Systemlessly replace boot animation with one of your choosing
