@@ -1,3 +1,5 @@
+( # subshell to protect globla namespace, since customize.sh is sourced
+
 custompath=
 realpath=
 
@@ -51,3 +53,5 @@ set_realpath || abort "! Unable to locate system boot animation"
 
 ui_print "- Installing systemless overlay"
 install -Dm644 "$custompath" "$MODPATH/$realpath" || abort "! Install failed"
+
+)
