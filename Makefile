@@ -1,2 +1,2 @@
 magisk-bootanimation.zip: customize.sh module.prop
-	zip -r - META-INF/ $^ > $@
+	zip -Dr - META-INF/ $^ > $@
